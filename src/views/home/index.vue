@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+      首页
   </div>
 </template>
 
@@ -16,3 +16,5 @@ export default defineComponent({
   }
 })
 </script>
+
+<style lang="scss" scoped></style>
