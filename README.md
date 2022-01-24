@@ -38,3 +38,6 @@ yarn prod
 + loading,message,rotatePhone等基础组件
 + pxtorem px 转 rem 的处理，默认 192，移动端可以改为 37.5等， vue.config.js 文件中修改
 + reset.css 重置初始样式
+
+### 温馨提示
++ 如果安装 node-sass 报错，可以单独安装或者多安装几次这个包。（`yarn` or `yarn add node-sass --dev`）
