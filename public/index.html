@@ -67,13 +67,13 @@
     }(window, document))
   </script>
   <!-- 可以更换为其他的cdn服务器 -->
-  <% if (htmlWebpackPlugin.options.ENV !=='production' ) { %>
+  <% if (htmlWebpackPlugin.options.ENV !== 'production' ) { %>
     <script src="https://pkg.mini1.cn/vconsole@3.10.1/dist/vconsole.min.js"></script>
     <script>
       var vConsole = new VConsole();
     </script>
     <% } %>
-      <% if (htmlWebpackPlugin.options.ENV==='production' ) { %>
+      <% if (htmlWebpackPlugin.options.ENV !== 'development' ) { %>
         <script src="https://pkg.mini1.cn/vue@3.2.27/dist/vue.global.prod.js"></script>
         <script src="https://pkg.mini1.cn/vue-router@4.0.12/dist/vue-router.global.prod.js"></script>
         <script src="https://pkg.mini1.cn/axios@0.24.0/dist/axios.min.js"></script>
